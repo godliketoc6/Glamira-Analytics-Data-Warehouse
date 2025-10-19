@@ -206,22 +206,28 @@ bash merge_job.sh
 For production deployment using Docker:
 
 ```bash
-cd e-commerce-analytics-warehouse
-docker container stop analytics-spark 2>/dev/null || true
-docker container rm analytics-spark 2>/dev/null || true
-docker run -it --name analytics-spark \
-  --mount type=bind,source="$(pwd)",target=/opt/project \
-  -w /opt/project -u spark -p 4040:4040 \
-  -v spark_data:/data \
-  -e PYSPARK_DRIVER_PYTHON="python" \
-  -e PYSPARK_DRIVER_PYTHON_OPTS="" \
-  -e PYSPARK_PYTHON="python" \
-  spark:latest bash -c "python3 -m venv venv && \
-    source venv/bin/activate && \
-    pip install -r requirements.txt && \
-    pyspark --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.1,org.postgresql:postgresql:42.3.1 \
-    --conf spark.executor.extraJavaOptions=-Djava.security.manager=allow \
-    --conf spark.driver.extraJavaOptions=-Djava.security.manager=allow"
+docker container stop finalprj || true && docker container rm finalprj || true && \
+docker run -ti --name finalprj \
+  --network=streaming-network \
+  --env-file .env \
+  -p 4040:4040 \
+  -v ./:/spark \
+  -v ./data:/data \
+  -v /home/duyng/finalprj/data/processed/currency:/data/unigap \
+  -v spark_lib:/opt/bitnami/spark/.ivy2 \
+  -e PYSPARK_DRIVER_PYTHON=python \
+  -e PYSPARK_PYTHON='./environment/bin/python' \
+  -e PYTHONPATH=/spark \
+  unigap/spark:3.5 bash -c "\
+    cd /spark && \
+    python -m venv pyspark_venv && \
+    source pyspark_venv/bin/activate && \
+    pip install -U -r requirements.txt && \
+    spark-submit \
+      --master spark://spark-spark-1:7077 \
+      --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1,org.postgresql:postgresql:42.7.3 \
+      src/main.py
+  "
 ```
 
 ## Business Intelligence Dashboard
