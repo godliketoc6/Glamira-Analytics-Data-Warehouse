@@ -170,37 +170,6 @@ KAFKA_TOPIC=product_events
 
 ## Operational Procedures
 
-### Pipeline Execution
-
-**1. Start Kafka Infrastructure**
-```bash
-# Start Zookeeper
-bin/zookeeper-server-start.sh config/zookeeper.properties
-
-# Start Kafka Broker
-bin/kafka-server-start.sh config/server.properties
-```
-
-**2. Execute Web Crawler**
-```bash
-bash run_crawler_after_postgres.sh
-```
-
-**3. Run Data Processing Pipeline**
-```bash
-python src/main.py
-```
-
-**4. Load Data to Warehouse**
-```bash
-python src/load.py
-```
-
-**5. Execute Data Merge Operations**
-```bash
-bash merge_job.sh
-```
-
 ### Containerized Deployment
 
 For production deployment using Docker:
@@ -238,12 +207,6 @@ The project includes an interactive business intelligence dashboard that provide
 
 ### Dashboard 
 
-### Performance Optimization
-
-- **Query Optimization:** Pre-aggregated metrics for fast dashboard load times
-- **Caching Strategy:** Intelligent caching of frequently accessed data
-- **Incremental Refresh:** Efficient data refresh mechanisms
-- **Responsive Design:** Optimized for various screen sizes and devices
 
 ## Analytics Capabilities
 
