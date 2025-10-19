@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ---- Virtual Environments ----
+venv/
+pyspark_venv/
+
+# ---- Environment Variables ----
+.env
+
+# ---- Logs ----
+*.log
+*.log.txt
+crawl_log.txt
+merge_log.txt
+
+# ---- Data ----
+data/raw/
+data/processed/modifyIp2location.csv
+
+# ---- Jupyter / VSCode ----
+.ipynb_checkpoints/
+.vscode/
+*.code-workspace
+
+# ---- System / OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Shell Scripts (optional: keep only if sensitive) ----
+# Comment out if you want to track these
+# run_crawler_after_postgres.sh
+# merge_job.sh
+
+# ---- Build / Distribution ----
+build/
+dist/
+

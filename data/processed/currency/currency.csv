@@ -1,0 +1,171 @@
+﻿currency_code,currency_name,symbol,country_code,usd_exchange_rate
+USD,US Dollar,$,US,1
+EUR,Euro,€,EU,0.91
+GBP,British Pound,£,GB,0.78
+JPY,Japanese Yen,¥,JP,0.0065
+VND,Vietnamese Dong,₫,VN,0.000042
+AUD,Australian Dollar,$,AU,0.68
+CAD,Canadian Dollar,$,CA,0.74
+CHF,Swiss Franc,Fr,CH,0.88
+CNY,Chinese Yuan,¥,CN,0.14
+INR,Indian Rupee,₹,IN,0.012
+KRW,South Korean Won,₩,KR,0.00075
+SGD,Singapore Dollar,$,SG,0.76
+NZD,New Zealand Dollar,$,NZ,0.62
+MXN,Mexican Peso,$,MX,0.059
+BRL,Brazilian Real,R$,BR,0.2
+ZAR,South African Rand,R,ZA,0.055
+RUB,Russian Ruble,₽,RU,0.011
+THB,Thai Baht,฿,TH,0.029
+IDR,Indonesian Rupiah,Rp,ID,0.000065
+MYR,Malaysian Ringgit,RM,MY,0.23
+PHP,Philippine Peso,₱,PH,0.018
+SEK,Swedish Krona,kr,SE,0.096
+NOK,Norwegian Krone,kr,NO,0.094
+DKK,Danish Krone,kr,DK,0.14
+PLN,Polish Zloty,zł,PL,0.25
+TRY,Turkish Lira,₺,TR,0.035
+AED,UAE Dirham,د.إ,AE,0.27
+SAR,Saudi Riyal,﷼,SA,0.27
+ILS,Israeli Shekel,₪,IL,0.28
+EGP,Egyptian Pound,£,EG,0.021
+ARS,Argentine Peso,$,AR,0.0011
+CLP,Chilean Peso,$,CL,0.0011
+COP,Colombian Peso,$,CO,0.00025
+PEN,Peruvian Sol,S/,PE,0.27
+CZK,Czech Koruna,Kč,CZ,0.044
+HUF,Hungarian Forint,Ft,HU,0.0028
+RON,Romanian Leu,lei,RO,0.22
+BGN,Bulgarian Lev,лв,BG,0.56
+HRK,Croatian Kuna,kn,HR,0.14
+UAH,Ukrainian Hryvnia,₴,UA,0.027
+KZT,Kazakhstani Tenge,₸,KZ,0.0022
+PKR,Pakistani Rupee,₨,PK,0.0036
+BDT,Bangladeshi Taka,৳,BD,0.0091
+VEF,Venezuelan Bolívar,Bs,VE,0.000028
+NGN,Nigerian Naira,₦,NG,0.0013
+KES,Kenyan Shilling,KSh,KE,0.0078
+GHS,Ghanaian Cedi,₵,GH,0.084
+UGX,Ugandan Shilling,USh,UG,0.00027
+TZS,Tanzanian Shilling,TSh,TZ,0.00042
+MAD,Moroccan Dirham,د.م.,MA,0.1
+DZD,Algerian Dinar,د.ج,DZ,0.0075
+TND,Tunisian Dinar,د.ت,TN,0.33
+LYD,Libyan Dinar,ل.د,LY,0.21
+ETB,Ethiopian Birr,Br,ET,0.018
+AFN,Afghan Afghani,؋,AF,0.014
+IQD,Iraqi Dinar,ع.د,IQ,0.00076
+IRR,Iranian Rial,﷼,IR,0.000024
+JOD,Jordanian Dinar,د.ا,JO,1.41
+KWD,Kuwaiti Dinar,د.ك,KW,3.26
+LBP,Lebanese Pound,ل.ل,LB,0.000011
+OMR,Omani Rial,ر.ع.,OM,2.6
+QAR,Qatari Riyal,ر.ق,QA,0.27
+SYP,Syrian Pound,£,SY,0.0004
+YER,Yemeni Rial,﷼,YE,0.004
+BHD,Bahraini Dinar,د.ب,BH,2.65
+AMD,Armenian Dram,֏,AM,0.0026
+AZN,Azerbaijani Manat,₼,AZ,0.59
+GEL,Georgian Lari,₾,GE,0.38
+KGS,Kyrgyzstani Som,с,KG,0.012
+TJS,Tajikistani Somoni,ЅМ,TJ,0.094
+TMT,Turkmen Manat,m,TM,0.29
+UZS,Uzbekistani Som,so'm,UZ,0.000081
+BYN,Belarusian Ruble,Br,BY,0.31
+MDL,Moldovan Leu,L,MD,0.056
+RSD,Serbian Dinar,дин,RS,0.0093
+MKD,Macedonian Denar,ден,MK,0.018
+ALL,Albanian Lek,L,AL,0.011
+BAM,Bosnia-Herzegovina Mark,KM,BA,0.56
+ISK,Icelandic Króna,kr,IS,0.0072
+LKR,Sri Lankan Rupee,Rs,LK,0.0034
+NPR,Nepalese Rupee,Rs,NP,0.0075
+BDT,Bangladeshi Taka,৳,BD,0.0091
+MMK,Myanmar Kyat,K,MM,0.00048
+LAK,Lao Kip,₭,LA,0.000048
+KHR,Cambodian Riel,៛,KH,0.00025
+BND,Brunei Dollar,$,BN,0.76
+MOP,Macanese Pataca,P,MO,0.12
+TWD,New Taiwan Dollar,NT$,TW,0.031
+HKD,Hong Kong Dollar,$,HK,0.13
+MNT,Mongolian Tugrik,₮,MN,0.00029
+MVR,Maldivian Rufiyaa,Rf,MV,0.065
+BTN,Bhutanese Ngultrum,Nu.,BT,0.012
+FJI,Fijian Dollar,$,FJ,0.45
+PGK,Papua New Guinean Kina,K,PG,0.27
+SBD,Solomon Islands Dollar,$,SB,0.12
+VUV,Vanuatu Vatu,Vt,VU,0.0086
+WST,Samoan Tala,T,WS,0.37
+TOP,Tongan Paʻanga,T$,TO,0.43
+XPF,CFP Franc,₣,PF,0.0091
+AOA,Angolan Kwanza,Kz,AO,0.0012
+BWP,Botswana Pula,P,BW,0.074
+BIF,Burundian Franc,Fr,BI,0.00035
+XAF,Central African CFA Franc,Fr,CM,0.0017
+CDF,Congolese Franc,Fr,CD,0.00036
+DJF,Djiboutian Franc,Fr,DJ,0.0056
+ERN,Eritrean Nakfa,Nfk,ER,0.067
+GMD,Gambian Dalasi,D,GM,0.016
+GNF,Guinean Franc,Fr,GN,0.00012
+LSL,Lesotho Loti,L,LS,0.055
+LRD,Liberian Dollar,$,LR,0.0053
+MGA,Malagasy Ariary,Ar,MG,0.00023
+MWK,Malawian Kwacha,MK,MW,0.00058
+MRU,Mauritanian Ouguiya,UM,MR,0.027
+MUR,Mauritian Rupee,₨,MU,0.022
+MZN,Mozambican Metical,MT,MZ,0.016
+NAD,Namibian Dollar,$,NA,0.055
+RWF,Rwandan Franc,Fr,RW,0.00079
+STN,São Tomé and Príncipe Dobra,Db,ST,0.045
+SCR,Seychellois Rupee,₨,SC,0.073
+SLL,Sierra Leonean Leone,Le,SL,0.00005
+SOS,Somali Shilling,Sh,SO,0.0018
+SSP,South Sudanese Pound,£,SS,0.0013
+SZL,Swazi Lilangeni,L,SZ,0.055
+XOF,West African CFA Franc,Fr,SN,0.0017
+ZMW,Zambian Kwacha,ZK,ZM,0.048
+ZWL,Zimbabwean Dollar,$,ZW,0.0031
+HTG,Haitian Gourde,G,HT,0.0076
+JMD,Jamaican Dollar,$,JM,0.0065
+TTD,Trinidad and Tobago Dollar,$,TT,0.15
+BSD,Bahamian Dollar,$,BS,1
+BBD,Barbadian Dollar,$,BB,0.5
+BZD,Belize Dollar,$,BZ,0.5
+BMD,Bermudian Dollar,$,BM,1
+KYD,Cayman Islands Dollar,$,KY,1.2
+CUP,Cuban Peso,$,CU,0.042
+DOP,Dominican Peso,$,DO,0.018
+XCD,East Caribbean Dollar,$,LC,0.37
+GTQ,Guatemalan Quetzal,Q,GT,0.13
+HNL,Honduran Lempira,L,HN,0.041
+NIO,Nicaraguan Córdoba,C$,NI,0.027
+PAB,Panamanian Balboa,B/.,PA,1
+PYG,Paraguayan Guaraní,₲,PY,0.00013
+SRD,Surinamese Dollar,$,SR,0.028
+UYU,Uruguayan Peso,$,UY,0.025
+BOB,Bolivian Boliviano,Bs.,BO,0.14
+CRC,Costa Rican Colón,₡,CR,0.002
+SVC,Salvadoran Colón,$,SV,0.11
+AWG,Aruban Florin,ƒ,AW,0.56
+ANG,Netherlands Antillean Guilder,ƒ,CW,0.56
+FKP,Falkland Islands Pound,£,FK,0.78
+GIP,Gibraltar Pound,£,GI,0.78
+SHP,Saint Helena Pound,£,SH,0.78
+JEP,Jersey Pound,£,JE,0.78
+GGP,Guernsey Pound,£,GG,0.78
+IMP,Manx Pound,£,IM,0.78
+TVD,Tuvaluan Dollar,$,TV,0.68
+KID,Kiribati Dollar,$,KI,0.68
+NRD,Nauruan Dollar,$,NR,0.68
+SLS,Somaliland Shilling,Sl,SO,0.00018
+PRB,Transnistrian Ruble,р.,MD,0.056
+CNH,Chinese Yuan (Offshore),¥,CN,0.14
+XAU,Gold Ounce,oz,XX,1950
+XAG,Silver Ounce,oz,XX,23.5
+BTC,Bitcoin,₿,XX,27500
+ETH,Ethereum,Ξ,XX,1650
+CVE,Cape Verdean Escudo,$,CV,0.01
+KMF,Comorian Franc,Fr,KM,0.0022
+GYD,Guyanese Dollar,$,GY,0.0048
+SDG,Sudanese Pound,ج.س.,SD,0.0017
+CUC,Cuban Convertible Peso,$,CU,1
