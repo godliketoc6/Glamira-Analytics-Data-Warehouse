@@ -206,7 +206,7 @@ docker run -ti --name finalprj \
 The project includes an interactive business intelligence dashboard that provides real-time visualization and analysis of customer behavior on the Glamira platform. The dashboard serves as the primary interface for stakeholders to monitor key performance indicators, track customer engagement trends, and derive actionable insights from the data warehouse.
 
 ### Dashboard 
-
+![](img/glamira.png)
 
 ## Analytics Capabilities
 
