@@ -1,11 +1,10 @@
-# E-Commerce Analytics Data Warehouse
+# Real-Time User Behavior Streaming Pipeline
 
 An enterprise-grade data engineering solution implementing real-time web scraping, stream processing, and dimensional modeling for e-commerce analytics using Apache Kafka, Apache Spark, and PostgreSQL.
 
 ## Project Information
 
 **Author:** Nguyen Ha Minh Duy
-
 
 **Technology Stack:** Apache Kafka, Apache Spark, PySpark, PostgreSQL, Python, Docker
 
