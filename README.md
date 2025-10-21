@@ -1,4 +1,4 @@
-# Real-Time User Behavior Streaming Pipeline
+# User Behavior Batching and Analytics Data Warehouse
 
 An enterprise-grade data engineering solution implementing real-time web scraping, stream processing, and dimensional modeling for e-commerce analytics using Apache Kafka, Apache Spark, and PostgreSQL.
 
